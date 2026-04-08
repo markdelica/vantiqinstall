@@ -1,0 +1,75 @@
+services:
+  vantiq_edge:
+    container_name: vantiq_edge_server
+    image: quay.io/vantiq/vantiq-edge:1.43
+    ports:
+      - 8080:8080
+    depends_on:
+      - vantiq_edge_mongo
+      - vantiq_edge_qdrant
+    restart: unless-stopped
+    volumes:
+      - ./config/license.key:/opt/vantiq/config/license.key
+      - ./config/public.pem:/opt/vantiq/config/public.pem
+    networks:
+      - vantiq_edge
+
+  vantiq_edge_mongo:
+    container_name: vantiq_edge_mongo
+    image: bitnamilegacy/mongodb:4.2.21
+    restart: unless-stopped
+    environment:
+      - MONGODB_USERNAME=ars
+      - MONGODB_PASSWORD=ars
+      - MONGODB_DATABASE=ars02
+      - MONGODB_ROOT_USER=root
+      - MONGODB_ROOT_PASSWORD=ars
+    volumes:
+      - vantiq_edge_data:/bitnami:rw
+    networks:
+      vantiq_edge:
+        aliases: [edge-mongo]
+
+  vantiq_ai_assistant:
+    container_name: vantiq_ai_assistant
+    image: quay.io/vantiq/ai-assistant:1.43
+    restart: unless-stopped
+    network_mode: "service:vantiq_edge"
+
+  vantiq_genai_flow_service:
+    container_name: vantiq_genai_flow_service
+    image: quay.io/vantiq/genaiflowservice:1.43
+    restart: unless-stopped
+    command: ["uvicorn", "app.genaiflow_service:app", "--host", "0.0.0.0", "--port", "8889"]
+    network_mode: "service:vantiq_edge"
+
+  vantiq_edge_qdrant:
+    container_name: vantiq_edge_qdrant
+    image: qdrant/qdrant:v1.13.4
+    restart: unless-stopped
+    volumes:
+      - qdrantData:/qdrant/storage
+    networks:
+      vantiq_edge:
+        aliases: [edge-qdrant]
+
+  vantiq_unstructured_api:
+    container_name: vantiq_unstructured_api
+    image: quay.io/vantiq/unstructured-api:0.0.82
+    restart: unless-stopped
+    environment:
+      - PORT=18000
+      - UNSTRUCTURED_PARALLEL_MODE_ENABLED=true
+      - UNSTRUCTURED_PARALLEL_MODE_URL=http://localhost:18000/general/v0/general
+      - UNSTRUCTURED_PARALLEL_MODE_SPLIT_SIZE=20
+      - UNSTRUCTURED_PARALLEL_MODE_THREADS=4
+      - UNSTRUCTURED_DOWNLOAD_THREADS=4
+    network_mode: "service:vantiq_edge"
+
+networks:
+  vantiq_edge:
+    ipam:
+      config: []
+volumes:
+  vantiq_edge_data: {}
+  qdrantData: {}
