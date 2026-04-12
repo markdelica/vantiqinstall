@@ -1,0 +1,572 @@
+[
+  {
+    "device_id": "UPS_A",
+    "device_group": "UPS",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_UPS A - Output Voltage L1": "219@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Voltage L2": "220@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Voltage L3": "219@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L1": "125@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L2": "120.2@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L3": "76@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L1": "26036@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L2": "25000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L3": "15800@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Frequency": "59.8@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L1": "219@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L2": "224@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L3": "220@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Battery Voltage": "519.5@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_UPS A - Output Voltage L1": "209@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Voltage L2": "210@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Voltage L3": "209@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L1": "195@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L2": "190@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L3": "120@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L1": "40000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L2": "39000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L3": "26000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Frequency": "59.7@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L1": "210@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L2": "215@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L3": "211@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Battery Voltage": "490@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_UPS A - Output Voltage L1": "195@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Voltage L2": "197@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Voltage L3": "196@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L1": "375@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L2": "365@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Current L3": "230@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L1": "73000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L2": "71000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Power L3": "45000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Output Frequency": "59.2@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L1": "195@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L2": "198@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Input Voltage L3": "196@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS A - Battery Voltage": "460@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "UPS_B",
+    "device_group": "UPS",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_UPS B - Output Voltage L1": "219@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Voltage L2": "220@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Voltage L3": "220@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L1": "126@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L2": "121@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L3": "76@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L1": "26200@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L2": "25200@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L3": "16000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Frequency": "59.8@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L1": "220@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L2": "224@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L3": "221@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Battery Voltage": "520@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_UPS B - Output Voltage L1": "210@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Voltage L2": "211@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Voltage L3": "209@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L1": "192@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L2": "188@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L3": "122@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L1": "40000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L2": "38500@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L3": "22500@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Frequency": "59.7@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L1": "211@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L2": "214@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L3": "210@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Battery Voltage": "485@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_UPS B - Output Voltage L1": "196@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Voltage L2": "197@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Voltage L3": "195@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L1": "368@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L2": "360@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Current L3": "228@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L1": "72000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L2": "70000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Power L3": "38000@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Output Frequency": "59.3@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L1": "196@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L2": "199@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Input Voltage L3": "197@2026-04-10T18:30:08.112+08:00",
+      "oec_UPS B - Battery Voltage": "468@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_A",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU A - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Cooling Capacity": "100@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU A - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU A - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU A - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_B",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU B - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Cooling Capacity": "100@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU B - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU B - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU B - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_1",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 1 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 1 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 1 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 1 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_2",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 2 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 2 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 2 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 2 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_3",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 3 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 3 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 3 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 3 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_4",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 4 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 4 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 4 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 4 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_5",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 5 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 5 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 5 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 5 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_6",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 6 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 6 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 6 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 6 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_7",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 7 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 7 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 7 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 7 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_8",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 8 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 8 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 8 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 8 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_9",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 9 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 9 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 9 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 9 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_10",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 10 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 10 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 10 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 10 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_11",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 11 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 11 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 11 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 11 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_12",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 12 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 12 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 12 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 12 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_13",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 13 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 13 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 13 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 13 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  },
+  {
+    "device_id": "PACU_14",
+    "device_group": "PACU",
+    "current_state": "normal",
+    "normal_json": {
+      "oec_PACU 14 - System State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Cooling Capacity": "50@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Fan Capacity": "95@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "warning_json": {
+      "oec_PACU 14 - System State": "2@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    },
+    "critical_json": {
+      "oec_PACU 14 - System State": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Cooling Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Fan Capacity": "0@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Relative Humidity": "51.5@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Humidifying State": "1@2026-04-10T18:30:08.112+08:00",
+      "oec_PACU 14 - Dehumidifying State": "2@2026-04-10T18:30:08.112+08:00"
+    }
+  }
+]
